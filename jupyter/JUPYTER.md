@@ -1,4 +1,4 @@
-# Multi-cursor in jupyter
+# Multi-cursor, and other Sublime type shortcuts in jupyter
 Jupyter notebook uses the [codemirror](https://www.codemirror.net/) (a text editor implemented in JavaScript for the browser) in the background. To edit or add shortcuts or features you need to update those of the codemirror. 
 
 To do so, you need to update the custom.js of jupyter, normally located at ~/.jupyter/custom/custom.js. If this file or even the custom folder does not exist, make one. Then add the following contents to the custom.js:
