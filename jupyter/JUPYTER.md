@@ -20,3 +20,7 @@ require(["codemirror/keymap/sublime", "notebook/js/cell", "base/js/namespace"],
 ~~~~
 
 The source of this tip is Saravanabalagi, Ramachandran [here](https://stackoverflow.com/questions/41553806/atom-sublime-like-multiple-selections-in-jupyter).
+
+# Extensions (including table of contents in jupyter)
+
+conda install -c conda-forge jupyter_contrib_nbextensions
